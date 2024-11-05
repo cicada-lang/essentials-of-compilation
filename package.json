@@ -1,0 +1,27 @@
+{
+  "name": "@cicada-lang/essentials-of-compilation",
+  "version": "0.0.1",
+  "repository": "github:cicada-lang/essentials-of-compilation",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "format": "prettier src --write"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "typescript": "^5.6.3"
+  }
+}
