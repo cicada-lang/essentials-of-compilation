@@ -1,1 +1,1 @@
-export const x: number = '123'
+export const x: number = 1
